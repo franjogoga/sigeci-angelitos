@@ -6,10 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using DevComponents.DotNetBar;
 
 namespace sigeci_angelitos
 {
-    public partial class PrincipalForm : Form
+    public partial class PrincipalForm : Office2007Form
     {
         public PrincipalForm()
         {
