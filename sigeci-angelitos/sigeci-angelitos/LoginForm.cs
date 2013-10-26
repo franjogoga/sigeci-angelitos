@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 using DevComponents.DotNetBar;
 
 namespace sigeci_angelitos
@@ -15,6 +16,13 @@ namespace sigeci_angelitos
         public LoginForm()
         {
             InitializeComponent();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            PrincipalForm pf = new PrincipalForm();
+            pf.Show();
+            this.Hide();
         }
     }
 }
