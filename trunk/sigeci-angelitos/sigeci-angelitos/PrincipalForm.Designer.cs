@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PrincipalForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "PrincipalForm";
+            this.ClientSize = new System.Drawing.Size(710, 261);
+            this.Name = "PrincipalForm";
+            this.Text = "SIGECI - Angelitos de Jesús";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
