@@ -1,6 +1,6 @@
 ﻿namespace sigeci_angelitos
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -40,14 +40,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "hola mundo";
             // 
-            // Form1
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(397, 223);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "LoginForm";
+            this.Text = "SIGECI - Angelitos de Jesus";
             this.ResumeLayout(false);
             this.PerformLayout();
 
