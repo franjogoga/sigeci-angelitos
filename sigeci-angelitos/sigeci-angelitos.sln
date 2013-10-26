@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sigeci-angelitos", "sigeci-angelitos\sigeci-angelitos.csproj", "{52B9D278-65C4-44C3-943B-1553731625EB}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup3", "Setup3\Setup3.isproj", "{9BC2D528-834E-4B62-879A-B25A8A7C690F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B9D278-65C4-44C3-943B-1553731625EB}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{52B9D278-65C4-44C3-943B-1553731625EB}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.Debug|Any CPU.ActiveCfg = DVD-5
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.Debug|Any CPU.Build.0 = DVD-5
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.DVD-5|Any CPU.Build.0 = DVD-5
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.Release|Any CPU.ActiveCfg = SingleImage
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.Release|Any CPU.Build.0 = SingleImage
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{9BC2D528-834E-4B62-879A-B25A8A7C690F}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
