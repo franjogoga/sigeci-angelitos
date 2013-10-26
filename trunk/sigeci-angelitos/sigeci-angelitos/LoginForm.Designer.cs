@@ -33,7 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +49,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(151, 63);
+            this.label2.Location = new System.Drawing.Point(160, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 1;
@@ -59,7 +58,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(151, 101);
+            this.label3.Location = new System.Drawing.Point(160, 101);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 13);
             this.label3.TabIndex = 2;
@@ -69,33 +68,24 @@
             // 
             this.txtUsuario.Location = new System.Drawing.Point(248, 63);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(105, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(124, 20);
             this.txtUsuario.TabIndex = 3;
             // 
             // txtContraseña
             // 
             this.txtContraseña.Location = new System.Drawing.Point(248, 101);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(105, 20);
+            this.txtContraseña.PasswordChar = '•';
+            this.txtContraseña.Size = new System.Drawing.Size(124, 20);
             this.txtContraseña.TabIndex = 4;
-            // 
-            // textBoxX1
-            // 
-            // 
-            // 
-            // 
-            this.textBoxX1.Border.Class = "";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(0, 0);
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.Size = new System.Drawing.Size(100, 20);
-            this.textBoxX1.TabIndex = 0;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::sigeci_angelitos.Properties.Resources.login;
             this.pictureBox1.Location = new System.Drawing.Point(22, 37);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 106);
+            this.pictureBox1.Size = new System.Drawing.Size(123, 121);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -103,7 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 187);
+            this.ClientSize = new System.Drawing.Size(397, 179);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
@@ -125,7 +115,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtContraseña;
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
         private System.Windows.Forms.PictureBox pictureBox1;
 
     }
