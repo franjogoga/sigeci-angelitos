@@ -4116,9 +4116,12 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PatchSequence</td><td>1.0.0</td></row>
 		<row><td>SaveAsSchema</td><td/></row>
 		<row><td>SccEnabled</td><td>0</td></row>
-		<row><td>SccPath</td><td/></row>
+		<row><td>SccPath</td><td>Svn</td></row>
 		<row><td>SchemaVersion</td><td>774</td></row>
 		<row><td>Type</td><td>MSIE</td></row>
+		<row><td>VSSccAuxPath</td><td>Svn</td></row>
+		<row><td>VSSccLocalPath</td><td>Svn</td></row>
+		<row><td>VSSccProvider</td><td>SubversionScc</td></row>
 	</table>
 
 	<table name="InstallUISequence">
