@@ -42,5 +42,10 @@ namespace sigeci_angelitos
             }
             
         }
+
+        private void PrincipalForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
