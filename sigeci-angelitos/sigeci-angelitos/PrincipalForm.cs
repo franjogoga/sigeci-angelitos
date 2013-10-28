@@ -33,8 +33,7 @@ namespace sigeci_angelitos
         {
             try
             {
-                tf = TerapeutaForm.Instancia();
-                tf.MdiParent = this;
+                tf = TerapeutaForm.Instancia();                
                 tf.Show();
             }
             catch (ObjectDisposedException ex)
