@@ -24,5 +24,11 @@ namespace sigeci_angelitos
             pf.Show();
             this.Hide();
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            txtUsuario.Text = "";
+            txtContrasena.Text = "";
+        }
     }
 }
